@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   if name_hash.length == 0 #if name_hash is empty
     nil
   else #name_hash not empty
-    name_hash.each do |key, value| #iterate over key,value paris
+    name_hash.each do |key, value| #iterate over key,value pairs
       if value < min #if name_hash[key] < min
         key_of_min = key #set key_of_min equal to key
       end
